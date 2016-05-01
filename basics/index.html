@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gary's First ReactJs Page</title>
+        <script src="https://fb.me/react-0.14.8.min.js"></script>
+        <script src="https://fb.me/react-dom-0.14.8.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.js"></script>
+    </head>
+    <body>
+        <script type="text/babel">
+            var Greeting = React.createClass({
+                render: function(){
+                    return <div>
+                        <h1>HEY REACT! {this.props.text}</h1>
+                        <p>{this.props.children}</p>
+                    </div>;
+                }
+            });
+            
+            React.render(<div>
+                <Greeting text="HEYYYY!!">Some chidren text.</Greeting>
+                <Greeting text="OHHHHHHH!!!" />
+                </div>, document.body);    
+        </script>
+    </body>
+</html>

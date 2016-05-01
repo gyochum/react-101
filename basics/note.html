@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gary's Second ReactJs Page</title>
+        <script src="https://fb.me/react-0.12.2.js"></script>
+        <script src="/node_modules/react-dom/dist/react-dom.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.js"></script>
+        <script src="components/Checkbox.jsx" type="text/babel"></script>
+        <script src="components/Note.jsx" type="text/babel"></script>
+        
+        <style type="text/css">
+            button{
+                margin-right: 10px;    
+            }
+            
+            .board{
+                background-color: teal;
+            }
+            
+            .note{    
+                width: 200px;
+                height: 200px;            
+                background-color: #ffff00;
+                padding: 20px;
+                border: 1px solid #999;
+            }
+            
+            .note .green{
+                border: 5px dotted green;
+            }
+            
+            .note .red{
+                border: 5px dotted red;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container"></div>
+        <div id="checkbox-container"></div>
+        <div id="note-container"></div>
+    </body>
+</html>

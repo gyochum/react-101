@@ -1,0 +1,19 @@
+{
+  "name": "react-js",
+  "version": "1.0.0",
+  "description": "learning react",
+  "main": "index.js",
+  "scripts": {
+    "basics": "live-server --host=localhost --open=basics"
+  },
+  "author": "garyyochum",
+  "license": "ISC",
+  "devDependencies": {
+    "jsx-transform": "^2.3.0",
+    "live-server": "^1.0.0"
+  },
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  }
+}
